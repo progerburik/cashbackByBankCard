@@ -10,6 +10,7 @@ if (previousPurchases <= 15000) {
     cashback = previousPurchases * regularPercent;
 } else if (previousPurchases <= 150000) {
     cashback = previousPurchases * increasedPercent;
-} else {cashback = 3000;
+} else {
+    cashback = 3000;
 }
 console.log(cashback + ' ' + 'рублей');
