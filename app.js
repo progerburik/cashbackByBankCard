@@ -1,5 +1,4 @@
 console.log('worked');
-
 const regularPercent = 0.01;
 const increasedPercent = 0.05;
 const specialPercent = 0.3;
