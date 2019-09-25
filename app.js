@@ -1,9 +1,5 @@
 console.log('worked');
 
-// обычные покупки - 1 - 15_000;
-// повышенные покупки - 15_001 - 150_000;
-// специальные покупки - 150_001;
-
 const regularPercent = 0.01;
 const increasedPercent = 0.05;
 const specialPercent = 0.3;
