@@ -10,7 +10,7 @@ const specialPercent = 0.3;
 
 let cashback = regularPurchases * regularPercent + increasedPurchases * increasedPercent + specialPurchases * specialPercent;
 
-let maxCashback = 3000;
+const maxCashback = 3000;
 
 if (cashback > maxCashback) {
     cashback = maxCashback;
