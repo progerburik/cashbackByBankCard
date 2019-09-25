@@ -12,7 +12,7 @@ let cashback = regularPurchases * regularPercent + increasedPurchases * increase
 
 let maxCashback = 3000;
 
-if (cashback > 15000) {
+if (cashback > maxCashback) {
     cashback = maxCashback;
 }
 console.log(cashback + ' ' + 'рублей');
